@@ -7,3 +7,4 @@ npm install
 echo $PRIVATE_KEY > privatekey.pem
 echo $SERVER > server.crt
 pm2 start ./bin/www --name example_app
+# This is the commented line that I have added to show the whole working of the pipeline.
